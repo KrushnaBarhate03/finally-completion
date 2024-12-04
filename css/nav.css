@@ -328,6 +328,11 @@ footer {
     #sidebar {
         display: none; 
     }
+    .logo-img {
+        position: absolute;
+        right: 4px;
+        top: 8px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -337,6 +342,12 @@ footer {
 
     .search-bar {
         width: 50%;
+    }
+
+    .logo-img {
+        position: absolute;
+        right: 4px;
+        top: 8px;
     }
 }
 
@@ -377,7 +388,13 @@ footer {
     }
 
     .search-bar{
+        margin-left: 40px;
         width: 40%;
+    }
+    .logo-img {
+        position: absolute;
+        right: 4px;
+        top: 8px;
     }
 }
 
@@ -419,6 +436,13 @@ footer {
     
         .search-bar{
             width: 70%;
+            margin-left: 40px;
+        }
+
+        .logo-img {
+            position: absolute;
+            right: 4px;
+            top: 8px;
         }
     
 }
