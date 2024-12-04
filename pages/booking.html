@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Page</title>
+   <link rel="stylesheet" href="../css/style.css">
+   <link rel="stylesheet" href="../css/booking.css">
+   <link rel="stylesheet" href="../css/index.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="../icon/shopping-cart.png" alt="E-commerce Logo">
+                </a>
+
+            </div>
+
+            <div class="menu-item">
+                <input type="text" class="search-bar menu-text" placeholder="Search Product.in">
+                <i class="fa-solid fa-magnifying-glass menu-icon menu-i in"></i>
+            </div>
+
+            <i class="fa-solid fa-bars hamburger-menu" onclick="openSidebar()" id="hamburger-menu"></i>
+
+            <ul class="nav-links" id="desktop-navbar">
+    
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../pages/about.html">About</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="../pages/contact.html">Contact</a></li>
+                <li><a href="../pages/signin.html">Login</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <ul id="sidebar">
+        <i class="fa-solid fa-circle-xmark close-menub" onclick="closeSidebar()"></i>
+
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../pages/about.html">About</a></li>
+        <li><a href="../pages/">Product</a></li>
+        <li><a href="../pages/contact.html">Contact</a></li>
+        <li><a href="../pages/signin.html">Login</a></li>
+    </ul>
+
+    <div class="container">
+        <h1>Book Your Slot</h1>
+        <form id="bookingForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required>
+            <button type="submit" onclick="openModel()">Book Now</button>
+        </form>
+        
+    </div>
+
+    <div class="overlay" id="overlay">
+        <div class="model">
+        
+            <div id="confirmation"></div>
+            <script src="../js/booking.js"></script>
+            <button type="button" class="btn" onclick="closeModel()">Close</button>
+
+        </div>
+
+    </div>
+
+ 
+    <script src="https://kit.fontawesome.com/d58d3c91c6.js" crossorigin="anonymous"></script>
+    <script src="../js/index.js"></script>
+    <script src="../js/nav.js"></script>
+
+
+    <footer>
+        <div class="footer-content">
+            <div class="contact-info">
+                <h3>Contact Us</h3>
+                <p>Phone: +91 9561510000</p>
+                <p>Email: support@krushna.com</p>
+                <p>Address: India</p>
+            </div>
+            <div class="quick-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="social-media">
+                <h3>Follow Us</h3>
+                <a href="https://facebook.com/" target="_blank"><img src="../icon/facebook.png" alt="Facebook"></a>
+                <a href="https://twitter.com/" target="_blank"><img src="../icon/Twitter.png" alt="Twitter"></a>
+                <a href="https://instagram.com/" target="_blank"><img src="../icon/instagram.png" alt="Instagram"></a>
+                <a href="https://linkedin.com/" target="_blank"><img src="../icon/linkedin.png" alt="LinkedIn"></a>
+            </div>
+            <div class="newsletter-signup">
+                <h3>Newsletter Signup</h3>
+                <form>
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 . All rights reserved.</p>
+        </div>
+    </footer>
+    
+</body>
+</html>

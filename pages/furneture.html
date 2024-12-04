@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/furniture.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="../icon/shopping-cart.png" alt="E-commerce Logo">
+                </a>
+
+            </div>
+            <i class="fa-solid fa-bars hamburger-menu" onclick="openSidebar()" id="hamburger-menu"></i>
+
+            <ul class="nav-links" id="desktop-navbar">
+                <li><b>Home</b></li>
+                <li><a href="../pages/about.html">About</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="../pages/contact.html">Contact</a></li>
+                <li><a href="../pages/signin.html">Login</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <!--product cards -->
+    
+    <div id="firstrow">
+    
+        <div class="slideshow-container">
+        <div class="slideshow">
+            <img id="slideshow-image" src="../img/electric-blanket-1.jpg" alt="Slideshow Image">
+        </div>
+       <div>
+        <h3>Electric Blanket</h3> 
+        <p>
+        <b>Cost:</b><i>$56</i>                                                               
+    </p>
+</div> 
+<!--discription menu-->
+       <button  id="discription" onclick="descrip()">Description</button>
+       <div id="myModal" class="modal">
+        <div class="modal-content">
+            <i class="fa-solid fa-xmark" id="close"class="close" onclick="closeModal()" style="color: red;"></i>
+            <h2>Experience Ultimate Comfort with Our Premium Electric Blanket</h2>
+            <h3>Key Features:</h3>
+            <p><b>Customizable Warmth:</b> Choose from multiple heat settings to find your ideal level of warmth. Whether you need a gentle heat for a quick nap or a toasty haven for a long night's sleep, this blanket has you covered.
+            </p>
+            <p><b>Ultra-Soft Fabric:</b>Crafted from high-quality, ultra-soft materials, this blanket offers a cozy feel against your skin, making it perfect for snuggling up on the couch or adding an extra layer of warmth to your bed.</p>
+            <p><b>Advanced Safety Features:</b>Equipped with overheat protection and an automatic shut-off timer, you can enjoy the soothing warmth with peace of mind.</p>
+            <p><b>Energy Efficient:</b>Designed to be energy efficient, it warms up quickly while consuming minimal power, making it an eco-friendly choice.</p>
+            <p><b>Machine Washable:</b>The detachable controller and machine washable fabric make it easy to keep your blanket fresh and clean.</p>
+            <button class="action-button">Add to cart</button>
+        </div>
+    </div>
+    </div>
+    <!--Second product-->
+    <div class="slideshow-container">
+        <div class="slideshow">
+            <img id="slideshow-img" src="../img/Smart-thermostat-1.jpg" alt="Slideshow Image">
+        </div>
+       <div>
+        <h3>Smart Thermostat</h3> 
+        <p>
+        <b>Cost:</b><i>$65</i>                                                                   
+    </p>
+</div> 
+<!--discription menu-->
+       <button  id="discription" onclick="descrip()">Description</button>
+       <div  id = "myModal" class="modal">
+        <div class="modal-content">
+            <i class="fa-solid fa-xmark" id="close"class="close" onclick="closeModal()" style="color: red;"></i>
+            <h2>Revolutionize Your Home Comfort with the Smart Thermostat</h2>
+            <h3>Key Features:</h3>
+            <p><b>Intelligent Climate Control:</b>Automatically adjusts the temperature based on your schedule and preferences.
+                 No more manual adjustments; your home is always at the perfect temperature.</p>
+            <p><b>Energy Savings:</b>Learn about your energy usage and get tips on how to save more.
+                 The smart thermostat optimizes heating and cooling to minimize energy consumption, helping you reduce your bills and carbon footprint.</p>
+            <p><b>Remote Access:</b>Control your thermostat from anywhere using your smartphone or tablet.
+                 Whether you're at work, on vacation, or just lounging on the couch, you have complete control at your fingertips.</p>
+            <p><b>User-Friendly Interface:</b>The sleek, modern design features a high-resolution touchscreen display that's easy to navigate.
+                 Adjusting your settings has never been more intuitive.</p>
+            <p><b>Voice Control:</b>Compatible with popular voice assistants like Amazon Alexa, Google Assistant, and Apple HomeKit.
+                 Simply use your voice to set the temperature, making home automation easier than ever.</p>
+            <button class="action-button">Add to cart</button>
+        </div>
+    </div>
+    </div>
+<!--Third-product-->
+    <div class="slideshow-container">
+        <div class="slideshow">
+            <img id="slideshow-3" src="../img/Hot-water-bottle-1.jpg" alt="Slideshow Image">
+        </div>
+       <div>
+        <h3>Hot-Water-Bottle</h3> 
+        <p>
+        <b>Cost:</b><i>$58</i>                                                                   
+    </p>
+</div> 
+<!--discription menu-->
+       <button  id="discription" onclick="descrip()">Description</button>
+       <div  id = "myModal" class="modal">
+        <div class="modal-content">
+            <i class="fa-solid fa-xmark" id="close"class="close" onclick="closeModal()" style="color: red;"></i>
+            <h2>Hot Water Bottle</h2>
+            <h3>Key Features:</h3>
+            <p><b>High-Quality Material:</b>Made from durable, heat-resistant rubber to ensure long-lasting use and safety.</p>
+            <p><b>Secure Screw-Top Lid:</b>Prevents leaks and spills, ensuring a safe and worry-free experience.</p>
+            <p><b>Extended Heat Retention:</b>Keeps water hot for an extended period, delivering consistent warmth and relief.</p>
+            <p><b>Soft, Removable Cover:</b>Available with a cozy fleece or knitted cover for added comfort and insulation.</p>
+            <p><b>Versatile Uses:</b>Ideal for soothing aches and pains, as well as providing warmth during cold weather.</p>
+            <button class="action-button">Add to cart</button>
+        </div>
+    </div>
+    </div>
+</div>
+<footer>
+    <div class="footer-content">
+        <div class="contact-info">
+            <h3>Contact Us</h3>
+            <p>Phone: +91 9561510000</p>
+            <p>Email: support@krushna.com</p>
+            <p>Address: India</p>
+        </div>
+        <div class="quick-links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Terms and Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="social-media">
+            <h3>Follow Us</h3>
+            <a href="https://facebook.com/" target="_blank"><img src="../icon/facebook.png" alt="Facebook"></a>
+            <a href="https://twitter.com/" target="_blank"><img src="../icon/Twitter.png" alt="Twitter"></a>
+            <a href="https://instagram.com/" target="_blank"><img src="../icon/instagram.png" alt="Instagram"></a>
+            <a href="https://linkedin.com/" target="_blank"><img src="../icon/linkedin.png" alt="LinkedIn"></a>
+        </div>
+        <div class="newsletter-signup">
+            <h3>Newsletter Signup</h3>
+            <form>
+                <input type="email" placeholder="Your email address" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </div>
+</footer>
+<script src="https://kit.fontawesome.com/8efeeacf59.js" crossorigin="anonymous"></script>
+<script src="../js/furniture.js"></script>
+
+</body>
+</html>
